@@ -1,0 +1,221 @@
+/* CSS DOC */
+
+  
+
+body
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    border-width: 1px;
+    
+    
+}
+
+.mainbody
+{
+    display: block;
+}
+
+.header
+{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.header.logo
+{
+    flex:1;
+}
+
+.searchbar
+{
+    flex:1;
+    text-align: right;
+    vertical-align: auto;
+}
+
+.searchBlock
+{
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+.searchitems td tr
+{
+    padding-right: 200px;
+}
+
+.first_paragraph 
+{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    background-image:url("image.png");
+}
+
+.second_paragraph
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.second_paragraph tr td
+{
+    flex:1;
+}
+
+.newsItem img
+{
+    width: 100%;
+}
+
+.newsItem
+{
+    display: block;
+}
+
+.newsLink
+{
+    width: 100%;
+    text-align: right;
+}
+
+.advert
+{
+    vertical-align: middle;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url("ad.png");
+    background-size: cover;
+    height: 140px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    width: fit-content; /* Added */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-buttons {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    opacity: 0.7;
+    margin-right: 10px;
+  }
+  
+  .carousel-prev:hover,
+  .carousel-next:hover {
+    opacity: 1;
+  }
+  
+  /* Added */
+  .carousel-images {
+    transform: translateX(0);
+  }
+  
+  .carousel-images.hide {
+    display: none;
+  }
+
+.carusel img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.third_paragraph
+{
+    border-style: solid;
+    border-width: 1px;
+}
+
+.third_paragraph h1
+{
+    display: block;
+}
+.third_paragraph p
+{
+    display: block;
+}
+.bulletAndList
+{
+    display: block;
+}
+
+.bulletAndList ul 
+{
+    list-style-type: circle;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 20px;
+}
+
+.grid p
+{
+    padding: 10px;
+    text-align: center;
+}
+
+.footer
+{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     text-align: center;
+     vertical-align: middle;
+     border-style: solid;
+     border-width: 1px;
+}
+
+.footer.logo
+{
+    vertical-align: middle;
+}
+
+.searchitems
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.author
+{
+    text-align: center;
+}
+
